@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" width="1000" height="190">
+<rect width="1000" height="190" rx="16" fill="#14130F"/>
+<rect x="0.5" y="0.5" width="999" height="189" rx="16" fill="none" stroke="#2A2823"/>
+<text x="40" y="38" font-family="'SF Mono',Menlo,Consolas,monospace" font-size="12" letter-spacing="2" fill="#9A9588">HOW A REQUEST FLOWS  ·  OMNIMEET AI</text>
+<rect x="40" y="62" width="168" height="52" rx="9" fill="none" stroke="#3A372F" stroke-width="1.5"/><text x="124.0" y="94" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,monospace" font-size="14" fill="#EDE9E0">Mic audio</text>
+<text x="218" y="93" font-family="'SF Mono',Menlo,monospace" font-size="16" fill="#9A9588">→</text>
+<rect x="228" y="62" width="168" height="52" rx="9" fill="none" stroke="#3A372F" stroke-width="1.5"/><text x="312.0" y="94" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,monospace" font-size="14" fill="#EDE9E0">Silero VAD</text>
+<text x="406" y="93" font-family="'SF Mono',Menlo,monospace" font-size="16" fill="#9A9588">→</text>
+<rect x="416" y="62" width="168" height="52" rx="9" fill="none" stroke="#E8A33D" stroke-width="1.5"/><text x="500.0" y="94" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,monospace" font-size="14" fill="#EDE9E0">Faster-Whisper</text>
+<text x="594" y="93" font-family="'SF Mono',Menlo,monospace" font-size="16" fill="#9A9588">→</text>
+<rect x="604" y="62" width="168" height="52" rx="9" fill="none" stroke="#3A372F" stroke-width="1.5"/><text x="688.0" y="94" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,monospace" font-size="14" fill="#EDE9E0">NLLB / Marian</text>
+<text x="782" y="93" font-family="'SF Mono',Menlo,monospace" font-size="16" fill="#9A9588">→</text>
+<rect x="792" y="62" width="168" height="52" rx="9" fill="none" stroke="#3A372F" stroke-width="1.5"/><text x="876.0" y="94" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,monospace" font-size="14" fill="#EDE9E0">Live subtitles</text>
+<text x="416" y="158" font-family="'SF Mono',Menlo,Consolas,monospace" font-size="13" fill="#9A9588">└ LLM copilot → summary + action items</text>
+<circle r="5" fill="#E8A33D"><animateMotion dur="5s" repeatCount="indefinite" path="M 60 88.0 L 940 88.0"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.95;1" dur="5s" repeatCount="indefinite"/></circle>
+</svg>
